@@ -1,0 +1,12 @@
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/libthiserror_impl-c34e38dafcab7a2e.dylib: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/ast.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/attr.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/expand.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/fmt.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/generics.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/prop.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/valid.rs
+
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/thiserror_impl-c34e38dafcab7a2e.d: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/ast.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/attr.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/expand.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/fmt.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/generics.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/prop.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/valid.rs
+
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/lib.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/ast.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/attr.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/expand.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/fmt.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/generics.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/prop.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.47/src/valid.rs:

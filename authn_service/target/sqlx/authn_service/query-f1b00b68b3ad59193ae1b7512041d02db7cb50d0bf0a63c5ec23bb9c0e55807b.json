@@ -1,0 +1,21 @@
+{
+  "query": "select environment as \"environment\" from api_keys where token = crypt($1, token)",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "environment",
+        "type_info": "Varchar"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Text"
+      ]
+    },
+    "nullable": [
+      false
+    ]
+  },
+  "hash": "d4ee1da5007498bb00dcebe69864897ab435bf112990f8fe9b4eff8dc2b0b0df"
+}

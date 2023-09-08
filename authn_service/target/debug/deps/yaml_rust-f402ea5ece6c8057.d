@@ -1,0 +1,9 @@
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/yaml_rust-f402ea5ece6c8057.rmeta: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/emitter.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/parser.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/scanner.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/yaml.rs
+
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/yaml_rust-f402ea5ece6c8057.d: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/emitter.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/parser.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/scanner.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/yaml.rs
+
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/lib.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/emitter.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/parser.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/scanner.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/yaml-rust-0.4.5/src/yaml.rs:

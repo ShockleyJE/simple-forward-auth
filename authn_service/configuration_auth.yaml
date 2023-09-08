@@ -1,0 +1,11 @@
+application_port: 8000
+metrics_port: 9464
+database:
+  host: "localhost"
+  port: 5432
+  username: "postgres"
+  password: "password"
+  database_name: "authentication"
+cache:
+  host: "localhost"
+  port: 6378

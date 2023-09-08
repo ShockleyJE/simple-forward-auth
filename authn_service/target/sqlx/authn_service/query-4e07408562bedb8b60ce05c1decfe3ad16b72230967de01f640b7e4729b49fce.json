@@ -1,0 +1,14 @@
+{
+  "query": "insert into api_keys (environment, token) values ($1, crypt($2, gen_salt('bf')))",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Varchar",
+        "Text"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "4361c584a2be6d717c5644577590210c8d24be78ace750aedf14c803bb7030cb"
+}

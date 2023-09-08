@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth-app
+  namespace: default
+  labels:
+    app: auth-app
+
+spec:
+  selector:
+    matchLabels:
+      app: auth-app
+  replicas: 2 # Number of replicas
+  template:
+    metadata:
+      labels:
+        app: auth-app
+    spec:
+      #dependsOn:
+      #- name: auth-cache
+      containers:
+        - name: auth-app # Name of the container
+          image: shockleyje/ccc-demo # The image you want to run
+          ports:
+            - name: auth-app
+              containerPort: 8000 # The port that your application uses
+            - name: auth-mtrcs
+              containerPort: 9464 # The port that your application uses
+          resources:
+            limits:
+              memory: 1024Mi
+              cpu: "1"
+            requests:
+              memory: 256Mi
+              cpu: "0.2"
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 3
+          readinessProbe:
+            httpGet:
+              path: /readiness
+              port: 8000
+          env:
+            - name: APP_PORT
+              value: "8000"
+            - name: METRICS_PORT
+              value: "9464"
+            - name: RUST_LOG
+              value: debug
+            - name: RUST_BACKTRACE
+              value: "1"
+            - name: REDIS_URL
+              value: "redis://auth-cache.default.svc.cluster.local:6379"

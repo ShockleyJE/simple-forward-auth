@@ -1,0 +1,95 @@
+# Default values for Traefik
+image:
+  registry: docker.io
+  repository: traefik
+  # defaults to appVersion
+  tag: ""
+  pullPolicy: IfNotPresent
+
+
+logs:
+# Configure log settings here...
+  general:
+    level: DEBUG
+#
+# Configure the deployment
+#
+deployment:
+  replicas: null
+resources:
+  requests:
+    cpu: "500m"
+    memory: "500Mi"
+  limits:
+    cpu: "1000m"
+    memory: "2000Mi"
+autoscaling:
+  enabled: true
+  maxReplicas: "2"
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 80
+
+# Create a default IngressClass for Traefik
+# If we create and assign it as the default we don't need to add annotations 
+# to separate ingress objects (since traefik is default and knows)
+ingressClass:
+  enabled: true
+  isDefaultClass: true
+
+service:
+  enabled: true
+  ## Single service is using `MixedProtocolLBService` feature gate.
+  ## When set to false, it will create two Service, one for TCP and one for UDP.
+  single: true
+  type: LoadBalancer
+
+# Create an IngressRoute for the dashboard
+ingressRoute:
+  dashboard:
+    enabled: true
+    # Additional ingressRoute annotations (e.g. for kubernetes.io/ingress.class)
+    annotations: {}
+    # Additional ingressRoute labels (e.g. for filtering IngressRoute by custom labels)
+    labels: {}
+    # The router match rule used for the dashboard ingressRoute
+    matchRule: PathPrefix(`/dashboard/`) || PathPrefix(`/api/`) 
+    # Specify the allowed entrypoints to use for the dashboard ingress route, (e.g. traefik, web, websecure).
+    entryPoints: ["traefik", "web"]
+    # Additional ingressRoute middlewares (e.g. for authentication)
+    middlewares:
+      - name: traefik-dashboard-auth
+
+ports:
+# Configure your entrypoints here...
+  web:
+    port: 8000
+    expose: true
+    exposedPort: 80
+    protocol: TCP
+
+# Additional items
+extraObjects:
+# BEGIN : declarations for the dashboard basic auth
+  - apiVersion: v1
+    kind: Secret
+    metadata:
+      name: traefik-dashboard-auth-secret
+    type: kubernetes.io/basic-auth
+    stringData:
+      username: randomuser
+      password: randompass
+
+  - apiVersion: traefik.containo.us/v1alpha1
+    kind: Middleware
+    metadata:
+      name: traefik-dashboard-auth
+    spec:
+      basicAuth:
+        secret: traefik-dashboard-auth-secret
+
+# END : declarations for the dashboard basic auth

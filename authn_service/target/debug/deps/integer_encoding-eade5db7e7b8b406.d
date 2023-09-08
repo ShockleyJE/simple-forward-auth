@@ -1,0 +1,11 @@
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/integer_encoding-eade5db7e7b8b406.rmeta: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/fixed.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/fixed_tests.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/varint.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/varint_tests.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/reader.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/writer.rs
+
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/integer_encoding-eade5db7e7b8b406.d: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/fixed.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/fixed_tests.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/varint.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/varint_tests.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/reader.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/writer.rs
+
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/lib.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/fixed.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/fixed_tests.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/varint.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/varint_tests.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/reader.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/integer-encoding-3.0.4/src/writer.rs:

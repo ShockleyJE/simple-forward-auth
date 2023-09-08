@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cache
+  namespace: default
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: cache
+  template:
+    metadata:
+      labels:
+        app: cache
+    spec:
+      containers:
+        - name: redis
+          image: redis:latest
+          ports:
+            - containerPort: 6379
+          #redis-server: This is the command that will be executed by the Redis container to start the Redis server.
+          #--save '': This argument tells Redis to disable persistence to disk. The '' is an empty string, which means that no data will be saved to disk.
+          #--appendonly no: This argument tells Redis to disable the appendonly option, which is used to enable Redis to save data to an append-only file. Since we've already disabled persistence to disk with the --save argument, we also want to disable appendonly to ensure that no data is written to disk.
+          args: ["redis-server", "--save", "''", "--appendonly", "no"]
+          resources:
+            limits:
+              memory: 512Mi
+              cpu: "0.2"
+            requests:
+              memory: 256Mi
+              cpu: "0.1"

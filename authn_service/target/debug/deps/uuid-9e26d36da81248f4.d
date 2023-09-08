@@ -1,0 +1,14 @@
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/uuid-9e26d36da81248f4.rmeta: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/builder.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/error.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/parser.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/fmt.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/timestamp.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/v4.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/rng.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/external.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/macros.rs
+
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/uuid-9e26d36da81248f4.d: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/builder.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/error.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/parser.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/fmt.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/timestamp.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/v4.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/rng.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/external.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/macros.rs
+
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/lib.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/builder.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/error.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/parser.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/fmt.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/timestamp.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/v4.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/rng.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/external.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-1.4.1/src/macros.rs:

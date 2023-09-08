@@ -1,0 +1,12 @@
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/tempfile-9752ea3b79339162.rmeta: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/dir.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/error.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/file/mod.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/file/imp/mod.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/spooled.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/util.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/file/imp/unix.rs
+
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/tempfile-9752ea3b79339162.d: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/dir.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/error.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/file/mod.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/file/imp/mod.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/spooled.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/util.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/file/imp/unix.rs
+
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/lib.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/dir.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/error.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/file/mod.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/file/imp/mod.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/spooled.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/util.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.7.1/src/file/imp/unix.rs:

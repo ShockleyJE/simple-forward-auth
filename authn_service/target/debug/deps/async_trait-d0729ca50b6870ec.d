@@ -1,0 +1,12 @@
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/libasync_trait-d0729ca50b6870ec.dylib: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/args.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/bound.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/expand.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/lifetime.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/parse.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/receiver.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/verbatim.rs
+
+/Users/james/Documents/proj/scratch/zero-to-rust-at-neurelo/authn_service/target/debug/deps/async_trait-d0729ca50b6870ec.d: /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/lib.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/args.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/bound.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/expand.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/lifetime.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/parse.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/receiver.rs /Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/verbatim.rs
+
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/lib.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/args.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/bound.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/expand.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/lifetime.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/parse.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/receiver.rs:
+/Users/james/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.73/src/verbatim.rs:

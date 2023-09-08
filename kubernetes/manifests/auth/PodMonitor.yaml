@@ -1,0 +1,17 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PodMonitor
+metadata:
+  labels:
+  name: kube-prometheus-stack-auth
+  namespace: monitoring
+spec:
+  namespaceSelector:
+    matchNames:
+      - default
+  podMetricsEndpoints:
+  - interval: 5s
+    port: auth-mtrcs
+    path: /metrics
+  selector:
+    matchLabels:
+      app: auth-app

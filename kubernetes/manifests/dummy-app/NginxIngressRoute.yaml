@@ -1,0 +1,20 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: nginx-ingressroute
+  namespace: default
+  annotations:
+    traefik.ingress.kubernetes.io/router.middlewares: auth-middleware@kubernetescrd
+spec:
+  entryPoints:
+    - web
+  routes:
+    - kind: Rule
+      match: Host(`139-144-255-180.ip.linodeusercontent.com`) && "PathPrefix(`/dur`)"
+      services:
+        - kind: Service
+          name: nginx-service
+          port: 80
+      middlewares:
+      - name: auth-middleware
+        namespace: default
